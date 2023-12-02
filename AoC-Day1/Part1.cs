@@ -3,10 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace AoC_Day1
 {
@@ -84,8 +81,6 @@ namespace AoC_Day1
                 output += (digits.First() * 10);
                 output += digits.Last();
             }
-
-
 
             Console.WriteLine(output);
         }
