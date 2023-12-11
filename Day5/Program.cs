@@ -264,9 +264,8 @@ namespace Day5
                 }
             }
             Console.WriteLine("min is " + min);
-
-
         }
+
         class Program
         {
             static void Main(string[] args)
